@@ -1,0 +1,6 @@
+svglib
+cairo
+reportlab
+pillow
+pycairo
+rlPyCairo
