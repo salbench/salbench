@@ -1,7 +1,7 @@
 # *SalBench: A Benchmark for Evaluating Perceptual Capabilities of Vision-Language Models*
 
 
-[[<img src="./images/hf-logo.svg" alt="Logo" width="30" height="30">](https://huggingface.co/datasets/salbench-vlm/salbench)] [[📊 Leaderboard ](https://github.com/salbench/salbench)][[📖 ArXiv Paper](Comming Soon)]
+[[<img src="./images/hf-logo.svg" alt="Logo" width="30" height="30"> HF dataset ](https://huggingface.co/datasets/salbench-vlm/salbench)] [[📊 Leaderboard ](https://github.com/salbench/salbench)][[📖 ArXiv Paper](Comming Soon)]
 
 ## Introduction
 We present Saliency Benchmark (SalBench), a novel benchmark designed to assess the capability of Large Vision-Language Models (LVLM) in detecting visually salient features that are readily apparent to humans, such as a large circle amidst a grid of smaller ones. This benchmark focuses on low-level features including color, intensity, and orientation, which are fundamental to human visual processing. Our SalBench consists of images that highlight rare, unusual, or unexpected elements within scenes, and naturally draw human attention. It comprises three novel tasks for evaluating the perceptual capabilities of LVLM: Odd-One-Out Detection, Referring Odd-One-Out, and Visual Referring Odd-One-Out. We perform a comprehensive evaluation of state-of-the-art LVLM using SalBench and our findings reveal a surprising limitation: LVLM struggle to identify seemingly obvious visual anomalies, with even the advanced GPT-4o achieving only 47.6\% accuracy on such a simple task. SalBench will be an important step in measuring the capabilities of LVLM that align with the subtle definition of human attention.
