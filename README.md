@@ -41,6 +41,29 @@ To set up the required dependencies, run:
 pip install -r requirements.txt
 ```
 
+### Dataset Generation Workflow
+
+The dataset can be generated using the following scripts:
+
+1. **Download necessary fonts** (if required for synthetic data generation):
+   ```bash
+   ./scripts/download_font.sh
+   ```
+
+2. **Generate pretraining data**:
+   ```bash
+   ./scripts/pretrain_data_generation.sh
+   ```
+   - This script creates a **foundational dataset** designed to expose models to salient patterns and anomalies.
+
+3. **Generate supervised fine-tuning (SFT) data**:
+   ```bash
+   ./scripts/sft_data_generation.sh
+   ```
+   - This step prepares data for **supervised learning**, refining model performance on saliency-based tasks.
+
+These scripts streamline the creation of training data, ensuring **reproducibility and flexibility** for future research.
+
 
 
 
